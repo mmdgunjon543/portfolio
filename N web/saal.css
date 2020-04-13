@@ -1,0 +1,255 @@
+*{margin:0; padding:0}
+body{
+	font-family:arial;
+	font-size:10px; 
+	margin:0; padding:0
+	color:#333;
+}
+img{width:100%}
+h1,h2,h3,h4,h5{
+	font-family:arial black;
+}
+#webname{float: left;margin:20px 40px; color:orange;font-size:14px}
+.logo{width:150px; float:left;}
+#p_menu{margin:0;padding:0; list-style:none; float:right;position:relative}
+#p_menu li{display:inline-block}
+#p_menu li a{text-decoration: none; text-transform:uppercase;padding: 23px 25px;font-size: 15px; color:#484848;font-weight:bold;transition:all 0.2s ease; margin: 0px 3px}
+#p_menu li a:hover{color:orange;background: #eee; border:1.5px solid orange;transform:translateY(-20px)}
+.mmenu{float:right;width:600px; float:right; margin-top:24px}
+/*#dmenu li{display:table;padding: 10px 0px;}
+#dmenu{background: #888; list-style:none;width:200px;position:absolute;margin-top:24px}
+#dmenu:hover{;margin-left:9999px}*/
+#title{
+	color:#fff;
+	margin-bottom:20px;
+	font-size:35px;
+	margin-top:10px;
+	text-align:center;
+	padding:20px
+}
+#tt h1 span{
+	background-color:orange;
+	color#fff;
+	padding:10px;
+	border-radius:15px; 
+}
+#tt h1 span:hover{background-color:#eee;color:#000}
+#product{
+	background:#fff;
+	width:324px;
+	padding:25px 18px;
+	overflow:hidden;
+	line-height:20px; display:inline-block;
+	border:2px solid orange;
+	border-radius: 2px;
+	margin: 11px 12px;
+	animation-name:xoomin;
+	animation-duration:3s;
+	transition:all 0.5s ;
+	
+}
+
+#product:hover{background:#6a5656;color:#fff; cursor:pointer; /*transform:scale(0.85)*/transform:translateY(-15px)}
+
+@keyframes xoomin{
+	from{transform:scale(0)}
+	to{transform:scale(1)}
+}
+
+.detail{
+	width:250px;
+	float:right
+	
+}
+.detail h2{padding-bottom:10px; margin-top:10px}
+.detail p{line-height:14px;text-align:justify;}
+.icon{width:70px; font-size:30px;float:left; margin-top:30px; color:orange}
+.detail,.icon{display:inline-block;}
+
+#wrap{ width:1170px;margin:auto;display: flow-root/*background: black*/}
+
+#sectionaaa{background:#21333c; border-bottom:2px solid orange; /*margin-top:20px*/}
+
+section{padding:50px 0px} 
+
+#section1{background:#3d4651;border-bottom:2px solid orange;}
+#abut{
+	*{margin:0; padding:0}
+body{
+	font-family:arial;
+	font-size:10px; 
+	margin:0; padding:0
+	color:#333;
+}
+img{width:100%}
+h1,h2,h3,h4,h5{
+	font-family:arial black;
+}
+#webname{float: left;margin:20px 40px; color:orange;font-size:14px}
+.logo{width:150px; float:left;}
+#p_menu{margin:0;padding:0; list-style:none; float:right;position:relative}
+#p_menu li{display:inline-block}
+#p_menu li a{text-decoration: none; text-transform:uppercase;padding: 23px 25px;font-size: 15px; color:#484848;font-weight:bold;transition:all 0.2s ease; margin: 0px 3px}
+#p_menu li a:hover{color:orange;background: #eee; border:1.5px solid orange;transform:translateY(-20px)}
+.mmenu{float:right;width:600px; float:right; margin-top:24px}
+/*#dmenu li{display:table;padding: 10px 0px;}
+#dmenu{background: #888; list-style:none;width:200px;position:absolute;margin-top:24px}
+#dmenu:hover{;margin-left:9999px}*/
+#title{
+	color:#fff;
+	margin-bottom:20px;
+	font-size:35px;
+	margin-top:10px;
+	text-align:center;
+	padding:20px
+}
+#tt h1 span{
+	background-color:orange;
+	color#fff;
+	padding:10px;
+	border-radius:15px; 
+}
+#tt h1 span:hover{background-color:#eee;color:#000}
+#product{
+	background:#fff;
+	width:324px;
+	padding:25px 18px;
+	overflow:hidden;
+	line-height:20px; display:inline-block;
+	border:2px solid orange;
+	border-radius: 2px;
+	margin: 11px 12px;
+	animation-name:xoomin;
+	animation-duration:3s;
+	transition:all 0.5s ;
+	
+}
+
+#product:hover{background:#6a5656;color:#fff; cursor:pointer; /*transform:scale(0.85)*/transform:translateY(-15px)}
+
+@keyframes xoomin{
+	from{transform:scale(0)}
+	to{transform:scale(1)}
+}
+
+.detail{
+	width:250px;
+	float:right
+	
+}
+.detail h2{padding-bottom:10px; margin-top:10px}
+.detail p{line-height:14px;text-align:justify;}
+.icon{width:70px; font-size:30px;float:left; margin-top:30px; color:orange}
+.detail,.icon{display:inline-block;}
+
+#wrap{ width:1170px;margin:auto;display: flow-root/*background: black*/}
+
+#sectionaaa{background:#21333c; border-bottom:2px solid orange; /*margin-top:20px*/}
+
+section{padding:50px 0px} 
+
+#section1{background:#3d4651;border-bottom:2px solid orange;}
+#abut{
+	
+	width:600px;/*! margin-right:0px; */
+	/*! padding-right: ; */
+	float: right;
+}
+#pic{width:450px;float: left;
+border:2px solid orange;
+margin-top:30px;
+}
+nav{background:#d0cbcb2e; border-bottom: 2px solid orange}
+#wrapp{ width:1170px;margin:auto;overflow: hidden;}
+#abut,#pic{display:inline-block;}
+
+#abut h2{color:#fff; border-bottom: 3px solid orange;
+}
+#abut p{ color:#eee;
+	font-size:15px;
+	background:#ffa50042;
+	padding:10px;
+	margin-top:10px;
+	border-radius:10px;
+
+}
+#foot{ width:200px; display: inline-block; float:left;margin:30px 0px 20px 0px; padding: 0px 90px 5px 0px}
+#foot h2{margin:10px 0px}
+#foot p{ background: #444;padding: 5px;border-radius:5px}
+#footoo{float:right}
+/*footer#wrap{ width:200px; display:inline-block;}*/
+footer{background:#222;
+color: #fff;
+font-size: 15px;}
+#copyR{margin-top:10px; text-align:right;background: #939393; text-align:center; }
+#footoo{margin: 30px 0px 0px 0px;padding:10px}
+#footoo h4{margin-bottom:10px;text-align: center;}
+#footoo input{width: 160px;padding:5px 1px;margin:3px;border-bottom:2px solid orange; border-radius: 3px; }
+#footoo span{ background: orange;padding: 2px;border-radius:5px}
+#subbButton{color:#fff;background:orange;border:none; font-weight:bold;cursor: pointer;}
+#subbButton:hover{background:#ffd994;}
+#ftft input{width: 154px}
+#footoo p{font-size:12px;text-align: right}
+
+#listt li a{text-decoration: none;border-bottom: 2px solid #888;display:block;margin-top:3px;font-size:15px;font-weight: bold;padding: 7px;color:#fff;border-radius:5px;transition:all 0.4s ease}
+#listt li a:hover{background: #333}
+#listt li{list-style: none;color:}
+
+#pic{float:none;;margin:0;padding: 0;border:none;}
+#pic{ background:url(chobi/fb1.jpg);height: 500px;background-repeat: no-repeat;background-size:cover; width: 100%}
+	width:600px;/*! margin-right:0px; */
+	/*! padding-right: ; */
+	float: right;
+}
+#pic{width:450px;float: left;
+border:2px solid orange;
+margin-top:30px;
+}
+nav{background:#d0cbcb2e; border-bottom: 2px solid orange}
+#wrapp{ width:1170px;margin:auto;overflow: hidden;}
+#abut,#pic{display:inline-block;width: 500px}
+
+#abut h2{color:#fff; border-bottom: 3px solid orange;padding:5px;
+}
+#abut p{ color:#eee;
+	font-size:15px;
+	background:#ffa50042;
+	padding:10px;
+	margin-top:10px;
+	border-radius:10px;
+
+}
+#foot{ width:200px; display: inline-block; float:left;margin:30px 0px 20px 0px; padding: 0px 90px 5px 0px}
+#foot h2{margin:10px 0px}
+#foot p{ background: #444;padding: 5px;border-radius:5px}
+#footoo{float:right}
+/*footer#wrap{ width:200px; display:inline-block;}*/
+footer{background:#222;
+color: #fff;
+font-size: 15px;}
+#copyR{margin-top:10px; text-align:right;background: #939393; text-align:center; }
+#footoo{margin: 30px 0px 0px 0px;padding:10px}
+#footoo h4{margin-bottom:10px;text-align: center;}
+#footoo input{width: 160px;padding:5px 1px;margin:3px;border-bottom:2px solid orange; border-radius: 3px; }
+#footoo span{ background: orange;padding: 2px;border-radius:5px}
+#subbButton{color:#fff;background:orange;border:none; font-weight:bold;cursor: pointer;}
+#subbButton:hover{background:#ffd994;}
+#ftft input{width: 154px}
+#footoo p{font-size:12px;text-align: right}
+
+#listt li a{text-decoration: none;border-bottom: 2px solid #888;display:block;margin-top:3px;font-size:15px;font-weight: bold;padding: 7px;color:#fff;border-radius:5px;transition:all 0.4s ease}
+#listt li a:hover{background: #333}
+#listt li{list-style: none;color:}
+
+#picwelcome{float:none;margin:0;padding: 0;border:none;}
+#picwelcome{ background:
+linear-gradient(#9cc19957,#00000042), linear-gradient(#00000078,#0000005c),
+url(chobi/fb2.jpg);background-size:cover; width: 100%;height: 500px;background-repeat:no-repeat;
+}
+#cycle h1{line-height:300px;text-align: center;font-size:70px;color:orange;}
+#cycle h3{text-align: center;
+font-size: 20px;
+color: #fff;
+background: #0ff3;
+padding: 5px;
+border-bottom: 2px solid #fff;}
